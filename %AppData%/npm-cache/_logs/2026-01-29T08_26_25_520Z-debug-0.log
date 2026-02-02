@@ -1,0 +1,18 @@
+0 verbose cli C:\Program Files\nodejs\node.exe D:\npm-global\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.8.0
+2 info using node@v22.13.1
+3 silly config load:file:D:\npm-global\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\dfuser\Desktop\pcs-backend-master\.npmrc
+5 silly config load:file:C:\Users\dfuser\.npmrc
+6 silly config load:file:C:\Users\dfuser\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:C:\Users\dfuser\Desktop\pcs-backend-master\%AppData%\npm-cache\_logs\2026-01-29T08_26_25_520Z-
+10 verbose logfile C:\Users\dfuser\Desktop\pcs-backend-master\%AppData%\npm-cache\_logs\2026-01-29T08_26_25_520Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd C:\Users\dfuser\Desktop\pcs-backend-master
+13 verbose os Windows_NT 10.0.26100
+14 verbose node v22.13.1
+15 verbose npm  v11.8.0
+16 verbose exit 1
+17 verbose code 1
