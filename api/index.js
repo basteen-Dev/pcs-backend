@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 // Set up session middleware
 app.use(session({
-  secret: process.env.SESSION_SECRET || "your_secret_key", // Use a secure secret
+  secret: process.env.SESSION_SECRET || "eyJhbGciOiJub25lIn0.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWUsImlhdCI6MTczNjI5MjEyNH0.", // Use a secure secret
   resave: false,
   saveUninitialized: true,
   cookie: { secure: false } // Set to true in production with HTTPS

@@ -39,7 +39,7 @@ app.use(session({
 // app.use(cors());// for development
 
 // === cors methode 3 ===
-const allowedOrigins = ["http://localhost:5173", "http://localhost:8081", "https://pcs-web-production-28c5.up.railway.app"];
+const allowedOrigins = ["http://localhost:5173", "http://localhost:8081", "https://pcs-backend-tyz9.onrender.com"];
 app.use(
   cors({
     origin: function (origin, callback) {
