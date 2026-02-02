@@ -3,6 +3,7 @@ const session = require("express-session");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 var bcrypt = require("bcryptjs");
+require('dotenv').config();
 // const { authJwt } = require("./app/middleware");
 
 const otpRoutes = require("./app/routes/otp.routes");

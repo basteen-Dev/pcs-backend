@@ -21,10 +21,10 @@
 // ############################################################################
 
 module.exports = {
-  HOST: "dpg-d5s6st4oud1c73930t20-a.oregon-postgres.render.com",
-  USER: "root",
-  PASSWORD: "PyF9jwWC8kZ5KmabpFtELTnVK5TJAiCU",
-  DB: "pcs_z7av",
+  HOST: process.env.DB_HOST,
+  USER: process.env.DB_USER,
+  PASSWORD: process.env.DB_PASSWORD,
+  DB: process.env.DB_NAME,
   dialect: "postgres",
   pool: {
     max: 5,
@@ -32,7 +32,7 @@ module.exports = {
     acquire: 30000,
     idle: 10000
   },
-  port: 5432,
+  port: process.env.DB_PORT,
 };
 
 
