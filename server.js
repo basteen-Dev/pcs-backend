@@ -68,7 +68,7 @@ async function createAdminIfNotExists() {
     where: { username: 'PCSADMIN', mobile_no: 1234567891 },
     defaults: {
       username: 'PCSADMIN',
-      password: await bcrypt.hash('PCSADMIN@123', 10),
+      password: await bcrypt.hash('admin123', 10),
       user_role: 3,
       mobile_no: 1234567891
     }
